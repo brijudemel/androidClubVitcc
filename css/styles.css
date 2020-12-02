@@ -1,0 +1,140 @@
+/*regular400,black900*/
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+    transform: rotate(335deg);
+  }
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+*
+{
+	font-family: 'Montserrat', sans-serif;
+}
+#title
+{
+	color: #F4F4F4;
+	background-color: #000000;
+	height:100%;
+}
+#logo
+{
+	border-radius: 100%;
+}
+#android-club
+{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 2.5rem;
+}
+.container-fluid{
+	padding: 5% 15% ;
+}
+.nav-item
+{
+	padding: 0 5%;
+	color: #F4F4F4;
+}
+#android-robot
+{
+	position: relative;
+	transform: rotate(335deg);
+	/*transform: scaleX(-1);*/
+	left:100%;
+	animation: 1s ease-out 0s 1 slideInFromRight;
+}
+#headline
+{
+	margin: 5% 0 0 5%;
+	size: 3rem;
+	font-weight: 900;
+	line-height: 1.5;
+}
+.view_btn
+{
+	margin:5% 0% 0% 5%;
+}
+#functions
+{
+	padding: 7% 15%;
+	background-color: #f4f4f4;
+	/*position: relative;*/
+}
+.function-item
+{
+	text-align: center;
+}
+.icon
+{
+	color: #F0A500;
+}
+.icon:hover
+{
+	color: #CF7500;
+}
+.carousel
+{
+	padding: 7% 10%;
+}
+#events
+{
+	background-color: #000000;
+}
+.carousel-image{
+	border-radius: 5%;
+}
+#members
+{
+	border: 7% 15%;
+}
+.member
+{
+	text-align: center;
+	padding: 1% 0 1% 0;
+}
+.member-img
+{
+	width: 200px;
+	height: 200px;
+}
+.members-heading
+{
+	text-align: center;
+	padding: 2%;
+}
+#contact
+{
+	padding: 7% 15%;
+	text-align: center;
+	background-color: #000000;
+}
+.footer-icon
+{
+	color: #ccc;
+	margin: 20px 10px;
+}
+.footer-icon:hover
+{
+	color: #F0A500;
+}
+#footer-text
+{
+	color: #ccc;
+}
+.fade {
+  opacity: 1;
+}
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+}
